@@ -45,34 +45,10 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/txtSample"
-                style="?android:listSeparatorTextViewStyle"
+            <ListView
+                android:id="@+id/lstLog"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="April 27th"
-                android:textSize="8sp" />
-
-            <TextView
-                android:id="@+id/txtSample2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="7:52AM - Blood Glucose: 162   Insulin Given: 4"
-                android:textSize="8sp" />
-
-            <TextView
-                android:id="@+id/txtSample3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="9:30AM - Blood Glucose: 182   Insulin Given: 7"
-                android:textSize="8sp" />
-
-            <TextView
-                android:id="@+id/txtSample4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="12:59PM - Blood Glucose: 160   Insulin Given: 4"
-                android:textSize="8sp" />
+                android:layout_height="match_parent" />
         </LinearLayout>
 
     </LinearLayout>
