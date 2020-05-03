@@ -74,12 +74,18 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btnGetInsulin"
-                android:layout_width="wrap_content"
+                android:id="@+id/btnBasal"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:onClick="calculate"
-                android:text="Get Insulin" />
+                android:text="Get Basal Insulin" />
+
+            <Button
+                android:id="@+id/btnBolus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Get Bolus Insulin" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
